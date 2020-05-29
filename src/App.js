@@ -1,5 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
+
+class App extends React.Component {
+  render() {
+    return (
+      <div>
+        <p>Hello!</p>
+        <h1>Yo!123</h1>
+      </div>
+    )
+  }
+}
+/* import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -21,6 +32,6 @@ function App() {
       </header>
     </div>
   );
-}
+} */
 
 export default App;
