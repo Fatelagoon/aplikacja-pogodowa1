@@ -1,11 +1,13 @@
 import React from 'react';
 
+import Titles from "./components/Titles";
+import Form from "./components/Form";
+
 class App extends React.Component {
   render() {
     return (
       <div>
-        <p>Hello!</p>
-        <h1>Yo!123</h1>
+        <Titles />
       </div>
     )
   }
