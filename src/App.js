@@ -4,7 +4,7 @@ import Titles from "./components/Titles";
 import Form from "./components/Form"; 
 import Weather from "./components/Weather"
 
-const  API_KEY = "ad81f6523681e81bafcce379330a02d9"
+const  API_KEY = "49b723e99e2b3029a9a6c975c5f7faaf"
 
 class App extends React.Component { // poniższe wyświetla zawartość Titles.js, oraz Form.js
   getWeather = async(e) => {
