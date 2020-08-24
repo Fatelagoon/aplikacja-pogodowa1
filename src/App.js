@@ -4,11 +4,11 @@ import Titles from "./components/Titles";
 import Form from "./components/Form"; 
 import Weather from "./components/Weather"
 
-const API_KEY = "ad81f6523681e81bafcce379330a02d9"
+const  API_KEY = "ad81f6523681e81bafcce379330a02d9"
 
 class App extends React.Component { // poniższe wyświetla zawartość Titles.js, oraz Form.js
   getWeather = async() => {
-    const api_call = await fetch('http://api.openweathermap.org/data/2.5/weather?q=London,uk&APPID=${API_KEY}');
+    const api_call = await fetch('http://api.openweathermap.org/data/2.5/weather?q=London,uk&appid=&{API_KEY}&units=metric');
 
     const data = await api_call.json(); // api_call konwertowane na format .json
     console.log(data);
