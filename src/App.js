@@ -46,6 +46,7 @@ class App extends React.Component { // poniższe wyświetla zawartość Titles.j
     description: undefined,
     error: "Please enter the value."
   });
+}
   
 }
   render() {
